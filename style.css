@@ -1,0 +1,85 @@
+@font-face{
+  font-family:'MuseoSans';
+  src:url("./fonts/museosans_300-webfont.eot");
+  src:url("./fonts/museosans_300-webfont.eot?#iefix")
+    format("embedded-opentype"), url("./fonts/museosans_300-webfont.woff")
+    format("woff"),url("./fonts/museosans_300-webfont.ttf")
+    format("truetype"),url("./fonts/museosans_300-webfont.svg#MuseoSans")
+    format("svg");font-weight:300;font-style:normal
+}
+
+@font-face{
+  font-family:'MuseoSans';
+  src:url("./fonts/museosans_500-webfont.eot");
+  src:url("./fonts/museosans_500-webfont.eot?#iefix")
+    format("embedded-opentype"),url("./fonts/museosans_500-webfont.woff")
+    format("woff"),url("./fonts/museosans_500-webfont.ttf")
+    format("truetype"),url("./fonts/museosans_500-webfont.svg#MuseoSans")
+    format("svg");font-weight:500;font-style:normal
+}
+
+@font-face{
+  font-family:'MuseoSans';
+  src:url("./fonts/museosans_700-webfont.eot");
+  src:url("./fonts/museosans_700-webfont.eot?#iefix")
+    format("embedded-opentype"),url("./fonts/museosans_700-webfont.woff")
+    format("woff"),url("./fonts/museosans_700-webfont.ttf")
+    format("truetype"),url("./fonts/museosans_700-webfont.svg#MuseoSans")
+    format("svg");font-weight:700;font-style:normal
+}
+
+.main {
+  background-color: rgb(43, 76, 126);
+  background-image:
+    radial-gradient(
+      #2b4c7e, #244171
+  );
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  width: 512px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.center-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.main-text p {
+  color: #c4cedc;
+  font: 300 14px/24px "MuseoSans",sans-serif;
+}
+
+.main-text p a {
+  color: #fff !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: solid 1px #fff;
+  display: inline;
+  padding-bottom: 2px;
+}
